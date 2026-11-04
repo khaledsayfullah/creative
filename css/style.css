@@ -1,3 +1,58 @@
-.box{
-    background-color: teal;
+/* common css style start here */
+*{
+    padding: 0;
+    margin: 0;
 }
+
+a{
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+}
+ul,li{
+    list-style-type: none;
+}
+/* common css style ends here */
+
+/* header part start here */
+
+.container{
+   width: 1170px ;
+   margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menulist{
+    display: flex;
+    gap: 204px;
+    text-transform: capitalize;
+}
+.menulist ul li{
+    align-items: center;
+}
+.menulist ul{
+    color: #181818;
+    font-weight: 500px;
+    font-size: 18px;
+    display: flex;
+    gap: 49.5px;
+}
+.navbar button{
+    padding: 13px;
+    background-color: #5956E8;
+    border: none;
+    border-radius: 10px;
+}
+.navbar button a{
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500px;
+}
+
+
+
+
+/* header part ends here */
