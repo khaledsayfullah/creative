@@ -11,33 +11,49 @@ a{
 ul,li{
     list-style-type: none;
 }
-/* common css style ends here */
-
-/* header part start here */
-
 .container{
    width: 1170px ;
    margin: 0 auto;
 }
+
+/* common css style ends here */
+
+/* header part start here */
+#heading{
+    padding: 33px;
+}
+
+
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .menulist{
-    display: flex;
-    gap: 204px;
     text-transform: capitalize;
 }
 .menulist ul li{
     align-items: center;
 }
+
 .menulist ul{
     color: #181818;
+    font-family: "Inter", sans-serif;
     font-weight: 500px;
     font-size: 18px;
     display: flex;
     gap: 49.5px;
+}
+.menulist ul li a{
+    color: #181818;
+    font-family: "Inter", sans-serif;
+    font-weight: 700px;
+    font-size: 18px;
+    display: flex;
+    gap: 49.5px;
+}
+.menulist ul li a:hover{
+    color: #5956E8;
 }
 .navbar button{
     padding: 13px;
@@ -56,3 +72,43 @@ ul,li{
 
 
 /* header part ends here */
+
+/* Banner part start here */
+
+#bannerpart{
+    padding: 151px;
+    background-color: #5956E8;
+}
+
+.bannerleft h1{
+    width: 501px;
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+    font-size: 65px;
+    color: #FFFEFE;
+    margin-bottom: 25px;
+}
+.bannerleftbtm p{
+    width: 542px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #FFFEFE;
+    margin-bottom: 30px;
+}
+.bnrlftbtm button{
+    padding: 13px 22px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+}
+.bnrlftbtm button a{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #5956E8;
+}
+.bannerright{
+    position: absolute;
+}
+
+
+/* Banner part ends here */
